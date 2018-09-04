@@ -6,8 +6,24 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <h1>Javascript : DOM Manipulation </h1>
-    <p> Web page interactive : list sample </p>
+    <h1 id="myHeading">Javascript : DOM Manipulation </h1>
+    <p> Web page interactive : List Sample </p>
+    <button id="toggleList">Hide Liste</button>
+    <div class="list">
+      <p class="description">Things that are purple:</p>
+      <input type="text" class="description">
+      <button class="description">Change the description of the items</button>
+      <ul>
+        <li>grapes</li>
+        <li>amethyst</li>
+        <li>lavender</li>
+        <li>plums</li>
+      </ul>
+      <input type="text" class="addItemInput">
+      <button class="addItemButton">Add Item</button>
+      <button class="removeItemButton">Remove Last Item</button>
+    </div>
     <script src="app.js"></script>
+    <script src="temp.js"></script>
   </body>
 </html>
