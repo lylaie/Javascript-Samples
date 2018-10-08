@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Hello Vue!</title>
+</head>
+<body>
+
+    <div id="helloVue">
+      <h1> {{ title }} </h1>
+      <p> {{ message }} </p>
+    </div>
+
+    <div id="example">
+      <h1> {{ title }}, {{ name }} !</h1>
+      <p> {{ message }}</p>
+      <img :src='img.src' :alt='img.alt'>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
