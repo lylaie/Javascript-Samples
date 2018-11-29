@@ -1,0 +1,16 @@
+doctype html
+html(lang='fr')
+  head
+    title ExpressJS tutorial : Flash Cards
+  body
+    header
+      h1 Flash Cards
+    section#section
+      h2= prompt
+      if hint
+        p
+          i Indice: #{hint}
+      else
+        p There is no hint
+    footer
+      p App to help you to learn
