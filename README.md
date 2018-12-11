@@ -24,6 +24,7 @@ Add, remove and modify invitees.
 <strong><h2>III - ExpressJS</h2></strong>
 
 Little game of quizz cards
+Use of Pug view engine. 
 
 <strong><h2>IV - JQuery </strong></h2>
 
