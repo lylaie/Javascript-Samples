@@ -4,7 +4,11 @@ html(lang='fr')
     title ExpressJS tutorial : Flash Cards
   body
     include includes/header.pug
-    
+    if name
+      h1 Welcome #{name} ! 
+      form(action='/goodbye', method='post')
+        button(type='submit') Goodbye
+        
     block content
       
     include includes/footer.pug

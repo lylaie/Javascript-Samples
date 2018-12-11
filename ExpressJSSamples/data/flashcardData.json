@@ -1,0 +1,37 @@
+{
+  "data": {
+    "title": "Javascript Flashcards",
+    "cards": [
+      {
+        "question": "De quelle industrie Anvers est elle la capitale ?",
+        "hint": "Cela brille de mille feux.",
+        "answer": "Les diamants"
+      },
+      {
+        "question": "De quelles fleurs est recouverte la Grand Place de Bruxelles chaque année paire?",
+        "hint": "Ce ne sont pas des tulipes",
+        "answer": "Des bégonias"
+      },
+      {
+        "question": "Avec quel pays la Belgique possède t elle la plus longue frontiere ?",
+        "hint": "Les apparences sont trompeuses.",
+        "answer": "La France"
+      },
+      {
+        "question": "Combien de langues officielles possède la Belgique ?",
+        "hint": "Les patois ne sont pas pris en compte!",
+        "answer": "Trois"
+      },
+      {
+        "question": "Quelle est la devise de la Belgique ?",
+        "hint": "Il ne s'agit pas de l'euro",
+        "answer": "L union fait la force"
+      },
+      {
+        "question": "Quel élément représente l'Atomium ? ",
+        "hint": "Il s agit d un minerai",
+        "answer": "Le fer"
+      }
+    ]
+  }
+}

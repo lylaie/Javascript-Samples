@@ -1,7 +1,6 @@
-extends layout
+extends layout.pug
 
 block content
   section#section
-    h1 Welcome #{name} ! 
-    form(action='/goodbye', method='post')
-      button(type='submit') Goodbye
+    p
+      a(href='/cards') Begin ! 

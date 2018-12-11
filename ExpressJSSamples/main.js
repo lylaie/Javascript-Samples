@@ -13,51 +13,16 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended : true }));
 app.use(cookieParser());
 
-// app.use((req, res, next) => {
-//   console.log('Blablabla');
-//   // const err = new Error('Erreur, jolie Erreur, dis moi qui est la plus belle ! ');
-//   // err.status = 500;
-//   next(err);
-// })
-//
-// app.use((req, res, next) => {
-//   console.log('Gloubigloubla');
-//   next();
-// })
-
 app.set('view engine', 'pug');
 
 
 // ROUTES
 
-app.get('/', (req, res) => {
-  const name = req.cookies.username ;
-  if (name) {
-    res.render('layout', { name });
-  } else {
-    res.redirect('/hello');
-  }
-});
+const mainRoutes = require('./routes');
+const cardRoutes = require('./routes/cards');
 
-app.get('/cards', (req, res) => {
-  res.locals.prompt = 'Comment s\'appelle le roi de la Belgique ? ';
-  res.locals.hint = 'Son prénom commence par P';
-  res.render('card');
-});
-
-app.get('/hello', (req, res) => {
-  res.render('hello');
-});
-
-app.post('/hello', (req, res) => {
-  res.cookie('username', req.body.username );
-  res.redirect('/');
-});
-
-app.post('/goodbye', (req, res) => {
-  res.clearCookie('username');
-  res.redirect('/hello');
-});
+app.use(mainRoutes);
+app.use(cardRoutes);
 
 // Creation of Errors status
 
