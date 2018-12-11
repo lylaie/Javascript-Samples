@@ -3,11 +3,9 @@ html(lang='fr')
   head
     title ExpressJS tutorial : Flash Cards
   body
+    include includes/header.pug
     
-    header
-      h1 Flash Cards
-    
-      include index.pug
+    block content
       
-    footer
-      p App to help you to learn
+    include includes/footer.pug
+    
