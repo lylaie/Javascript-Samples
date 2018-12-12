@@ -2,10 +2,11 @@ extends layout.pug
 
 block content
   section#section
-    h2= text
-    if hint
-      p
-        i Indice: #{hint}
-    a(href=`${id}?side=${sidetoShow}`)= sidetoShowDisplay
-    br
-    a(href='/cards') Next card
+    div#form2
+      h2= text
+      if hint
+        p
+          i Indice: #{hint}
+    div#link
+      a(href=`${id}?side=${sidetoShow}`)= sidetoShowDisplay
+      a(href='/cards') Next card
