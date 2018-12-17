@@ -3,5 +3,7 @@ extends layout.pug
 block content
   form(action='/hello', method='post')#form1
     label Please enter your name:
+      br
       input(type='text', name='username')
+      br
       button(type='submit') Submit

@@ -31,6 +31,22 @@
         "question": "Quel élément représente l'Atomium ? ",
         "hint": "Il s agit d un minerai",
         "answer": "Le fer"
+      },
+      {
+        "question": "Par qui ont été inventées les pralines ?",
+        "hint":  "Il ne s'agit pas de Leonidas",
+        "anwser": "Neuhaus"
+      },
+      {
+        "question": "Avec quel pays la Belgique fut-elle la première à instaurer les cartes d'identité électronique ?",
+        "hint": "Il s'agit d'un pays européen",
+        "answer":  "L'Italie"
+      },
+      {
+        "question": "Comment s'appelle le plus grand ascensceur à bateau du monde ?",
+        "hint": "Il est situé dans le Hainaut",
+        "answer": "L ascensceur funiculaire de Strepy-Thieu"
+
       }
     ]
   }

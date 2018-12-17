@@ -5,10 +5,12 @@ html(lang='fr')
     link(rel='stylesheet', href='/static/stylesheet/style.css')
   body
     include includes/header.pug
+    br
     if name
-      h1#welcome Welcome #{name} ! 
-      form(action='/goodbye', method='post')#goodbye
-        button(type='submit') Goodbye
+      div#name
+        h1#welcome Welcome #{name} ! 
+        form(action='/goodbye', method='post')#goodbye
+          button(type='submit') Goodbye
         
     block content
       
