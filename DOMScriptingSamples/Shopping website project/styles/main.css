@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.nav {
+  background-color: yellow;
+  height: 80px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.logo, .row, .checkout, .phone-number {
+  padding-top: 1%;
+  padding-left:10%;
+}

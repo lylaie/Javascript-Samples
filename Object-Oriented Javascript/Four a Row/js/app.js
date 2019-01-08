@@ -1,5 +1,8 @@
 const game = new Game;
 
-$("#begin-game").click(function() {
-  game.startgame();
+document.getElementByID("#begin-game").addEventListener('click', function () {
+  game.startGame();
+
+  this.style.display = 'none';
+  document.getElementById('play-area').style.opacity  = '1';
 })
