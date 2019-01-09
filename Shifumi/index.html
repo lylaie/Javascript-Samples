@@ -1,0 +1,42 @@
+<!-- DOCTYPE -->
+<html lang='fr'>
+
+  <head>
+    <title>Rock Paper Scissors Game</title>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="score">
+      <div id="user" class="player">You</div>
+      <div id="computer" class="player">Computer</div>
+      <span id="user-score">0</span> : <span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+      Paper covers rock. You win!
+    </div>
+
+    <div class="choices">
+      <div class="choice" id="rock">
+        <img src='img/rock.png' alt="Rock">
+      </div>
+      <div class="choice" id='paper'>
+        <img src='img/paper.png' alt='Paper'>
+      </div>
+      <div class="choice" id="scissors">
+        <img src="img/scissors.png" alt='Scissors'>
+      </div>
+    </div>
+
+    <p id="action-session">Make your choice.</p>
+
+    <script src="app.js"></script>
+  </body>
+</html>
