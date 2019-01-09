@@ -52,3 +52,9 @@ Creation of an interactive shopping list, where you can add and remove items, sh
 
 Creation of a first template with VueJS, not really interesting for the moment
 
+<strong><h2>VII - Vanilla Javascript </h2></strong>
+
+<strong><h4>Rock Paper Scissors Game </h4></strong>
+
+https://nostalgic-bartik-629467.netlify.com/
+
